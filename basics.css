@@ -1,0 +1,148 @@
+/* This is a CSS comment */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+}
+
+
+ body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-color: #ffcccc;
+    height: 300px;
+}
+
+.section2 {
+    background-color: #ccffcc;
+    height: 300px;
+}
+
+
+.bg-image {
+    background-image: url('./image/HTML5_logo_and_wordmark.svg.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+}
+
+
+ .border-container {
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid blue;
+    border-right: 10px dotted red; 
+    border-bottom: 15px dashed green; 
+    border-left: 20px double orange;  
+}
+.content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 80%; 
+    height: 300px; 
+    background-color: #f0f0f0;
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box;  
+}
+
+
+.inner {
+    width: 50%; 
+    height: 50%; 
+    background-color: #ccc;
+    margin: 10px auto; 
+    padding: 20px;
+    box-sizing: border-box;  
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;  
+}
+
+
+.text-style {
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+.text-size {
+    margin-bottom: 20px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+
+.text-family {
+    margin-bottom: 20px;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.sans-serif {
+    font-family: Arial, sans-serif;
+}
+
+
+.text-color {
+    margin-bottom: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+
+.text-align {
+    margin-bottom: 20px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}

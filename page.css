@@ -1,0 +1,109 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid black; 
+    width: 100%;
+  }
+  
+ 
+  tr:hover {
+    background-color: lightgrey;  
+  }
+
+  
+  td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+
+  .hidden {
+    visibility: hidden; 
+  }
+  .visible {
+    visibility: visible; 
+  }
+
+  .collapsed {
+    visibility: collapse; 
+  }
+
+  .invisible {
+    display: none; 
+  }
+
+  .inline {
+    display: inline; 
+  }
+
+  .block {
+    display: block; 
+  }
+
+  .contents {
+    display: contents; 
+  }
+
+  .list-item {
+    display: list-item; 
+  }
+
+
+  .scroll-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    scroll-behavior: smooth; 
+  }
+
+  .scroll-link:hover {
+    background-color: #0056b3;
+  }
+
+  .container {
+    border: 2px solid black;
+    margin: 20px; 
+    padding: 20px;  
+  }
+
+  
+  .inner {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid red;
+    margin: 20px; 
+    padding: 20px;  
+  }
+
+  .content {
+    
+    background-image: 
+      url('./image/HTML5_logo_and_wordmark.svg.png'), 
+      url('./image/HTML5_logo_and_wordmark.svg.png'); 
+    background-position: 
+      top left,
+      bottom right; 
+    background-size: 
+      auto,
+      cover; 
+    background-repeat: 
+      no-repeat, 
+      repeat; 
+    height: 800px;  
+    margin: 0; 
+    padding: 0; 
+  }
+
+  
+  .content {
+    text-align: center;
+    padding: 20px;
+  }

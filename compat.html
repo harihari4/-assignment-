@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="compat.css">
+</head>
+<body>
+    <table class="fixed-layout">
+        <thead>
+            <tr>
+                <th style="width: 50px;">ID</th>
+                <th style="width: 150px;">Name</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>This is a long text that will be truncated in a fixed layout table.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>Another long text that will be truncated in a fixed layout table.</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Auto Table Layout</h2>
+    <table class="auto-layout">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>This is a long text that will not be truncated in an auto layout table.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>Another long text that will not be truncated in an auto layout table.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul class="custom-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+<br>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Hero Image Example</h1>
+            <p>This is some sample text overlaying the hero image.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Viewport, Grid, Media Queries, Image & Video Example</h2>
+    
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+        </div>
+    
+        <div class="media-container">
+            <h3>Image Example</h3>
+            <img src="image\HTML5_logo_and_wordmark.svg.png" alt="Sample Image">
+        </div>
+    
+        <div class="media-container">
+            <h3>Video Example</h3>
+            <video controls>
+                <source src="https://youtu.be/qv6ErWuquTY?si=Wmbv_WNLyq6F1XEV" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!--Cell padding is set using the cellpadding attribute in HTML, or it can be defined in CSS using the padding property for <td> and <th> elements.
+        
+    Cell spacing is set using the cellspacing attribute in HTML, or it can be defined in CSS using the border-spacing property for the <table> element.
+
+
+        What are form attributes ?
+        action:
+        Specifies the URL to which the form data will be sent when the form is submitted.
+
+        method:
+        Defines the HTTP method used when submitting the form data. It can be either "get" or "post"
+
+        name:
+        Provides a name for the form, which can be used to reference the form in scripting.
+
+        target:
+        Specifies where to display the response after submitting the form. It can be "_self", "_blank", "_parent", "_top", or a frame or window name
+    -->
+</body>
+</html>
